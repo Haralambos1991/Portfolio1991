@@ -3,6 +3,24 @@ h1 {
     margin-right: 100px;
     margin-left: 135px;
     font-size: 70px;
+    font-style: italic;
     position: relative;
-    bottom: -30px;
+    bottom: -3px;
+    font-family: Arial Verdana;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    font-family: Times New Roman;
+    color: white;
+}
+
+.tinted {
+    opacity: 145;
+}
+
+img {
+    margin-left: 602px;
 }
