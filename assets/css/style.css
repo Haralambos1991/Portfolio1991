@@ -22,7 +22,7 @@ h2 {
 }
 
 img {
-    margin-left: 602px;
+    margin-left: 580px;
 }
 
 /* .fa {
@@ -30,16 +30,16 @@ img {
 } */
 .social-media {
     text-align: center;
-    padding-left: 97px;
+    padding-left: 74px;
     margin-right: 50px;
-    margin-bottom: 110px;
+    margin-bottom: 180px;
 }
 
 .nav-bar {
-    width: 44%;
+    width: 46.7%;
     height: 100%;
     border-block-start: 1px solid white;
-    margin-left: 365px;
+    margin-left: 289px;
     font-size: 1px;
-    margin-top: 88px;
+    margin-bottom: 20px;
 }
