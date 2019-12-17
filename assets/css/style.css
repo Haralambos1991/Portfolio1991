@@ -7,14 +7,14 @@ h1 {
     position: relative;
     bottom: -3px;
     font-family: Arial Verdana;
-    color: whitesmoke;
+    color: black;
 }
 
 h2 {
     text-align: center;
     font-size: 19px;
     font-family: Times New Roman;
-    color: white;
+    color: black;
 }
 
 .tinted {
@@ -46,7 +46,53 @@ img {
 
 .nav-item {
     text-align: center;
-    margin-bottom: 20px;
-    margin-left: 150px;
-    margin-right: -125px;
+    font-family: Verdana;
+    margin-top: -140px;
+    margin-left: 250px;
+    margin-right: -185px;
 }
+
+.nav-link-active {
+    color: white;
+}
+
+.details{
+   margin-left: 397px;
+   margin-top: -8em;
+
+}
+
+span{
+    margin-top: 1em;
+    display: block;
+}
+hr { 
+
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+    margin-left: 310px;
+    margin-right: 332px;
+    border-style:inset;
+    border-width: 1px;
+   
+  } 
+ 
+  .reference1{
+      margin-left: 85px;
+      margin-top: -23px;
+  }
+
+  .reference2{
+      margin-left: 178px;
+      margin-top: -23px;
+  }
+  
+  #selectNav{
+      margin-left: 280px;
+     margin-top: -60px;      
+  }
+
+  .reference4{
+      margin-left: 478px;
+      margin-top: -45px;
+  }
