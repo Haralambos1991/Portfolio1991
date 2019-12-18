@@ -56,43 +56,69 @@ img {
     color: white;
 }
 
-.details{
-   margin-left: 397px;
-   margin-top: -8em;
-
+.details {
+    margin-left: 397px;
+    margin-top: -8em;
 }
 
-span{
+span {
     margin-top: 1em;
     display: block;
 }
-hr { 
-
+hr {
     margin-top: 0.7em;
     margin-bottom: 2em;
     margin-left: 310px;
     margin-right: 332px;
-    border-style:inset;
+    border-style: inset;
     border-width: 1px;
-   
-  } 
- 
-  .reference1{
-      margin-left: 85px;
-      margin-top: -23px;
-  }
+}
 
-  .reference2{
-      margin-left: 178px;
-      margin-top: -23px;
-  }
-  
-  #selectNav{
-      margin-left: 280px;
-     margin-top: -60px;      
-  }
+.reference1 {
+    margin-left: 85px;
+    margin-top: -23px;
+}
 
-  .reference4{
-      margin-left: 478px;
-      margin-top: -45px;
-  }
+.reference2 {
+    margin-left: 178px;
+    margin-top: -23px;
+}
+
+#footerNav a {
+    color: #fff;
+    margin: 0 20px;
+    /* margin-left: 280px;
+    margin-top: -60px; */
+}
+#selectNav {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.reference4 {
+    margin-left: 478px;
+    margin-top: -45px;
+}
+
+.form-group1 {
+    color: black;
+}
+
+.form-group2 {
+    color: black;
+}
+
+.form-group3 {
+    color: black;
+}
+
+.footer {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+}
