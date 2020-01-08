@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <title>Haralambos Tsivikas' Portfolio</title>
-
+        <title>Portfolio</title>
         <!-- Bootstrap stylesheet-->
         <link
             rel="stylesheet"
@@ -17,10 +16,15 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <!-- CSS Stylesheet-->
         <link rel="stylesheet" href="assets/css/style.css" media="screen" />
         <style type="text/css">
             body {
-                background-image: url(assets/imgs/computer.jpeg);
+                background: linear-gradient(
+                        rgba(25, 18, 87, 0.5),
+                        rgba(25, 18, 87, 0.5)
+                    ),
+                    url(assets/imgs/sky.jpg);
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -30,13 +34,85 @@
     </head>
 
     <body>
-        <!-- jQuery CDN -->
-        <script
-            type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-        ></script>
+        <h1>GEORGE.IO</h1>
+        <br />
+        <h2>
+            Hello, My name is George Tsivikas and I'm a California based<br />
+            Web Developer. If I'm not coding at some of California nicest<br />
+            libraries,I am working on my projects home.
+            <br />
+            <br />
+            <br />
 
-        <!-- Bootstrap CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            I have many skills , starting from HTML+CSS+Javascript<br />
+            -React all the way to Node JS & MongoDB.My customer software <br />
+            development is executed with preciseness, leading to better<br />
+            digital experiences for customers and users.
+        </h2>
+
+        <img src="assets/imgs/San Fransisco.jpg" alt="amazing-images" />
+        <br />
+        <br />
+        <div class="social-media">
+            <a href="https://twitter.com/TsivikasGeorge"
+                ><i
+                    class="fa fa-twitter"
+                    style="font-size: 20px; color: white; margin-right: 2px; "
+                ></i
+            ></a>
+
+            <a href="https://www.instagram.com/haralambos5628/?hl=en"
+                ><i
+                    class=" fa fa-instagram"
+                    style="font-size: 20px; color: white; "
+                ></i
+            ></a>
+
+            <a href="https://www.facebook.com/bob.aisthanomai"
+                ><i
+                    class="fa fa-facebook"
+                    style="font-size: 20px; color: white; margin-left: 2px;"
+                ></i
+            ></a>
+
+            <a
+                href="https://www.linkedin.com/in/haralambos-tsivikas-8790a810a/"
+            >
+                <i
+                    class="fa fa-linkedin"
+                    style="font-size: 20px; color: white; margin-left: 3px;"
+                ></i
+            ></a>
+            <br />
+            <br />
+            <hr />
+        </div>
+
+        <div class="details " id="footerNav">
+            <a href="index.html">HOME</a>
+            <a href="http://127.0.0.1:5500/about.html">ABOUT</a>
+
+            <a
+                href="https://www.barefootstudent.com/san_francisco_bay/students/resume/mr_haralambos_1920277002"
+                >SKILLS</a
+            >
+
+            <select id="selectNav">
+                <option value="projects">Projects</option>
+                <option
+                    value="https://haralambos1991.github.io/Marvelous-Memes/"
+                    >Marvelous Memes</option
+                >
+                <option value="https://haralambos1991.github.io/unit-4-game/"
+                    >Unit-4-Game</option
+                >
+                <option value="https://haralambos1991.github.io/Psychic-Game/"
+                    >Psychic-Game</option
+                >
+            </select>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <script src="projects.js"></script>
     </body>
 </html>
