@@ -1,0 +1,24 @@
+{
+    "name": "Portfolio1991",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx live-server public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Haralambos1991/Portfolio1991.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "UNLISENSED",
+    "bugs": {
+        "url": "https://github.com/Haralambos1991/Portfolio1991/issues"
+    },
+    "homepage": "https://github.com/Haralambos1991/Portfolio1991#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
