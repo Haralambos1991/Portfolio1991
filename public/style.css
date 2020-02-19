@@ -1,10 +1,9 @@
+/* --- STYLES FOR ALL PAGES --- */
 h2 {
     text-align: center;
     font-size: 5px;
 }
 
-img {
-    border-radius: 50%;
+.statement {
+    text-align: left;
 }
-
-/* --- STYLES FOR ALL PAGES --- */
