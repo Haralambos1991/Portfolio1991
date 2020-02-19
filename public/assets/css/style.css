@@ -149,3 +149,25 @@ hr {
     margin-left: 100px;
     margin-top: -65px;
 }
+
+h3 {
+    margin-left: -90px;
+    margin-top: -50px;
+}
+
+.Coding {
+    margin-left: 375px;
+    margin-top: -152px;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: square;
+    margin-left: -115px;
+    color: black;
+}
