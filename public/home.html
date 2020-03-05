@@ -6,8 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
         <title>Javascript Pie Chart</title>
-        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-        <script src="assets/imgs/chart.js"></script>
         <div class="main">
             <div class="container">
                 <div class="row">
@@ -98,19 +96,21 @@
 
     <body>
         <!-- jQuery CDN -->
+        <div class="container">
+        <canvas id="myChart" width="600" height="400"></canvas>
+    </div>
         <script
             type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
         ></script>
        
     
-        <!-- Chart code is here-->
-      <div id = "chartContainer" style="height: 300px; width: 100%;"></div>
+        
         <!-- Bootstrap CDN -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <footer>
             
         </footer>
-      
+        <script src="chart.js"></script>
     </body>
 </html>

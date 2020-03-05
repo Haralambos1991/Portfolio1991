@@ -20,5 +20,9 @@
     "homepage": "https://github.com/Haralambos1991/Portfolio1991#readme",
     "devDependencies": {
         "live-server": "^1.2.1"
+    },
+    "dependencies": {
+        "chart.js": "^2.9.3",
+        "chartjs-plugin-datalabels": "^0.7.0"
     }
 }

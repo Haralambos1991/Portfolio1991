@@ -1,24 +1,53 @@
-window.onload = function() {
-    var chart = new CanvasJS.Chart("chartContainer", {
-        animationEnabled: true,
-        title: {
-            text: "Desktop Search Engine Market Share - 2016",
-        },
-        data: [
+
+$ (function(Chart){
+var ctx = document.getElementById("mychart").getContext("2d");
+var myChart = new Chart(ctx, {
+    type: "pie",
+    data: {
+        labels: ["Coder", "Designer"],
+        datasets: [
             {
-                type: "pie",
-                startAngle: 240,
-                yValueFormatString: '##0.00"%"',
-                indexLabel: "{label} {y}",
-                dataPoints: [
-                    { y: 79.45, label: "Google" },
-                    { y: 7.31, label: "Bing" },
-                    { y: 7.06, label: "Baidu" },
-                    { y: 4.91, label: "Yahoo" },
-                    { y: 1.26, label: "Others" },
-                ],
+                data: [25.0, 75.0],
+                backgroundColor: ["#000000", "#808080"],
+                borderWidth: 0.5,
+                borderColor: "#ddd",
             },
         ],
-    });
-    chart.render();
-};
+    },
+
+    options: {
+        title: {
+            display: true,
+            text: "Experience",
+            position: "top",
+            fontSize: 16,
+            fontColor: "#111",
+            padding: 20,
+        },
+        legend: {
+            display: true,
+            position: "bottom",
+            labels: {
+                boxWidth: 20,
+                fontColor: "#111",
+                padding: 15,
+            },
+        },
+        tooltips: {
+            enabled: false,
+        },
+        plugins: {
+            datalabels: {
+                color: "#111",
+                textAlign: "center",
+                font: {
+                    lineHeight: 1.6,
+                },
+                formatter: function(value) {
+                    return value + "%";
+                },
+            },
+        },
+    },
+})
+
