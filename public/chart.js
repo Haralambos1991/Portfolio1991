@@ -1,4 +1,4 @@
-$(function(Chart) {
+(function(Chart) {
     var ctx = document.getElementById("mychart");
     var myChart = new Chart(ctx, {
         type: "pie",
