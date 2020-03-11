@@ -219,8 +219,15 @@ body {
     height: 100%;
     width: 100%;
     background-image: url(../imgs/computer.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .yellow {
     margin-right: 500px;
+}
+
+#piechart {
+    margin-top: -190px;
+    margin-left: 240px;
 }
